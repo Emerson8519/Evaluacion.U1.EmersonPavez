@@ -17,11 +17,13 @@
         <form method="GET" action="CalculadoraInteresSimple">
         
         Capital Inicial: <input type="text" name="Capital" id="capital" > <br />
+        <br />
         Tasa de interes anual (%): <input type="text" name="Interes" id="interes" > (Decimal debe ir con punto "." Ej: 10.5) <br />
+        <br />
         Cantidad de años: <input type="text" name="Periodo" id="periodo" > <br />
         <br />
         
-        <input type="submit" name="Btn" value="enviar">
+        <input type="submit" name="Btn" value="Calcular">
         
         </form>
         
