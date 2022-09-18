@@ -75,7 +75,7 @@ public class CalculadoraInteresSimple extends HttpServlet {
             
             Double resultado = Integer.parseInt(C) * Double.parseDouble(I)/100 * Integer.parseInt(T);
             
-            out.println("Con un capital de $ " + C + ", a una tasa de interes anual del " + I + "%" + ", durante " + T +" años, el interes generado es de $  " + resultado);
+            out.println("Con un capital de $ " + C + ", a una tasa de interes anual de " + I + "%" + ", durante " + T +" años, el interes generado es de $  " + resultado);
             
             out.println("</body>");
             
