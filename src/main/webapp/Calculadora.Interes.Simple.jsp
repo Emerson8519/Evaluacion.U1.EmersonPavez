@@ -13,11 +13,17 @@
     </head>
     <body>
         <h1>Ingresa los datos:</h1>
-        <br />
+        
+        <form method="GET" action="CalculadoraInteresSimple">
         
         Capital Inicial: <input type="text" name="Capital" id="capital" > <br />
         Tasa de interes anual: <input type="text" name="Interes" id="interes" > <br />
-        Cantidad de años: <input type="text" name="tiempo" id="tiempo" > <br />
+        Cantidad de años: <input type="text" name="Periodo" id="periodo" > <br />
+        <br />
+        
+        <input type="submit" name="Btn" value="enviar">
+        
+        </form>
         
     </body>
 </html>
